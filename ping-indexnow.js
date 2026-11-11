@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'silicon-ledger7.pages.dev';
+const HOST = 'silicon-ledger7.pageaura.xyz';
 const KEY = 'b3a328b0456643d08f2a9429bfd56383';
-const KEY_LOCATION = `https://silicon-ledger7.pages.dev/b3a328b0456643d08f2a9429bfd56383.txt`;
+const KEY_LOCATION = `https://silicon-ledger7.pageaura.xyz/b3a328b0456643d08f2a9429bfd56383.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
