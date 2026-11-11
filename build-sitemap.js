@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://silicon-ledger7.pages.dev';
+const DOMAIN = 'https://silicon-ledger7.pageaura.xyz';
 const KEY = 'b3a328b0456643d08f2a9429bfd56383';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'silicon-ledger7.pages.dev' ||
+    url.hostname.toLowerCase() !== 'silicon-ledger7.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
